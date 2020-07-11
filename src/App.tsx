@@ -21,7 +21,7 @@ function App() {
 
             {/*<OnOff ValueOn={on} changeOn={()=>setOn(!on)} />*/}
 
-            <UncontrolledOnOff onChange={setOn} />{on.toString()}
+            <UncontrolledOnOff onChange={setOn} />
 
             {/*<Rating value={2}/>*/}
             {/*<Rating value={3}/>*/}
