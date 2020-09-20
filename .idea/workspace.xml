@@ -10,11 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b40c5a91-1f43-4b0c-85eb-2662025fcf24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b40c5a91-1f43-4b0c-85eb-2662025fcf24" name="Default Changelist" comment="11.07.2020-storyBook+input">
+      <change afterPath="$PROJECT_DIR$/src/stories/UseMemo.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UnControlledAccordion/UnControlledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UnControlledAccordion/UnControlledAccordion.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -43,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UnControlledAccordion" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -55,14 +59,15 @@
       <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UnControlledAccordion" />
     </key>
     <key name="es6.move.members.recent.items">
+      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UnControlledAccordion\reducer.tsx" />
       <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\Rating\Rating.tsx" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UnControlledAccordion" />
+      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\Select" />
       <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\stories" />
       <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UnConrolledRating" />
       <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UncontrolledOnOff" />
-      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\Accordion" />
-      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\OnOff" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -82,7 +87,17 @@
       <workItem from="1594233127207" duration="306000" />
       <workItem from="1594298638464" duration="686000" />
       <workItem from="1594301934768" duration="12402000" />
-      <workItem from="1594385393520" duration="6669000" />
+      <workItem from="1594385393520" duration="10607000" />
+      <workItem from="1595761278592" duration="5456000" />
+      <workItem from="1595849532975" duration="689000" />
+      <workItem from="1595922842993" duration="593000" />
+      <workItem from="1595999252994" duration="20150000" />
+      <workItem from="1597412940894" duration="3912000" />
+      <workItem from="1597490707123" duration="4260000" />
+      <workItem from="1599235595199" duration="665000" />
+      <workItem from="1599236314081" duration="2322000" />
+      <workItem from="1600504163246" duration="18727000" />
+      <workItem from="1600574782897" duration="798000" />
     </task>
     <task id="LOCAL-00001" summary="10.07.2020-storyBook">
       <created>1594368486495</created>
@@ -91,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594368486495</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="11.07.2020-storyBook+input">
+      <created>1594448157948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594448157948</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,17 +133,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="10.07.2020-storyBook" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.07.2020-storyBook" />
+    <MESSAGE value="11.07.2020-storyBook+input" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.07.2020-storyBook+input" />
   </component>
   <component name="WindowStateProjectService">
     <state x="585" y="115" key="FileChooserDialogImpl" timestamp="1594368813355">
       <screen x="0" y="0" width="1280" height="683" />
     </state>
     <state x="585" y="115" key="FileChooserDialogImpl/0.0.1280.683@0.0.1280.683" timestamp="1594368813355" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1594368516072">
+    <state x="672" y="55" key="RollbackChangesDialog" timestamp="1596035840110">
       <screen x="0" y="0" width="1280" height="683" />
     </state>
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.683@0.0.1280.683" timestamp="1594368516072" />
+    <state x="672" y="55" key="RollbackChangesDialog/0.0.1280.683@0.0.1280.683" timestamp="1596035840110" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1594448162588">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.683@0.0.1280.683" timestamp="1594448162588" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -138,13 +165,138 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/App.tsx</url>
-          <line>11</line>
-          <option name="timeStamp" value="4" />
+          <line>17</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/App.tsx</url>
-          <line>17</line>
-          <option name="timeStamp" value="5" />
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
+          <line>24</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
+          <line>30</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
+          <line>41</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
+          <line>45</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
+          <line>2</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
+          <line>3</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
+          <line>4</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
+          <line>5</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
+          <line>11</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
+          <line>31</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
+          <line>38</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
+          <line>37</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
+          <line>36</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
+          <line>35</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx</url>
+          <line>9</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
+          <line>12</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Select/Select.stories.tsx</url>
+          <line>29</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Select/Select.stories.tsx</url>
+          <line>11</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/UnControlledAccordion/UnControlledAccordion.tsx</url>
+          <line>15</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/UnControlledAccordion/reducer.tsx</url>
+          <line>15</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/UnControlledAccordion/reducer.tsx</url>
+          <line>20</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/stories/UseMemo.stories.tsx</url>
+          <line>63</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/stories/UseMemo.stories.tsx</url>
+          <line>52</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/stories/UseMemo.stories.tsx</url>
+          <line>2</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/stories/ReactUseMemo.stories.tsx</url>
+          <line>41</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

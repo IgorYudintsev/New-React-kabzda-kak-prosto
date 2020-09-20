@@ -15,7 +15,7 @@ function App() {
     return (
         <div>
             {/*<Rating value={ratingValue} onClick={setRatingValue} />*/}
-            <Accordion titleValue={'MENU'} collapsed={accordionCollapsed} onChange={()=>{setAccordionCollapsed(!accordionCollapsed)}}/>
+            {/*<Accordion titleValue={'MENU'} collapsed={accordionCollapsed} onChange={()=>{setAccordionCollapsed(!accordionCollapsed)}}/>*/}
 
             <PageTitle title={' This is App component'}/>
 
