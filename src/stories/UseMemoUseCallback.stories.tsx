@@ -1,4 +1,4 @@
-import React, {useMemo, useState} from "react";
+import React, {useCallback, useMemo, useState} from "react";
 
 export default {
     title: 'useMemo',
@@ -52,10 +52,10 @@ export const HelpsToReactMemo = () => {
     const [counter, setCounter] = useState(0);
     const [users, setUsers] = useState(['Igor', 'Sashsa', 'Olga', 'Nadia']);
 
-    const newArray=useMemo(()=>{
-        const newArray=users.filter(f => f.toLowerCase().indexOf('a') > -1)
+    const newArray = useMemo(() => {
+        const newArray = users.filter(f => f.toLowerCase().indexOf('a') > -1)
         return newArray;
-    },[])//пустые скобки-т.е. нет никакой зависимости
+    }, [])//пустые скобки-т.е. нет никакой зависимости
     return (
         <div>
             <button onClick={() => setCounter(counter + 1)}>+</button>
@@ -69,3 +69,38 @@ export const HelpsToReactMemo = () => {
         </div>
     )
 }
+
+//===================================================================================
+//useCallBack
+export const LikeUseCallBack = () => {
+    console.log('LikeUseCallBack')
+    const [counter, setCounter] = useState(0);
+    const [books, setBooks] = useState(['React', 'JS', 'CSS', 'HTML']);
+
+    const memorizedAddBook = useCallback(() => {
+        const newUsers = [...books, 'Angular' + new Date().getTime()];
+        setBooks(newUsers)
+    }, [books])
+    //[books]-это зависимость от newUsers, если использовать []-то будет брать
+    // ['React', 'JS', 'CSS', 'HTML'] и не добавлять 'Angular'
+
+    return (
+        <div>
+            <button onClick={() => setCounter(counter + 1)}>+</button>
+            {counter}
+            <Book addBook={memorizedAddBook}/>
+        </div>
+    )
+}
+
+const BooksSecret = (props: { addBook: () => void }) => {
+    console.log('BooksSecret')
+    return (
+        <div>
+            <button onClick={() => props.addBook()}>add book</button>
+        </div>
+    )
+}
+const Book = React.memo(BooksSecret);
+//т.е. useMemo мы используем для каждого элемента, а если в элементе есть колбэк
+//то добавляем и useCallback
