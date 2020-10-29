@@ -10,10 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b40c5a91-1f43-4b0c-85eb-2662025fcf24" name="Default Changelist" comment="20.09.2020-React.memo+useMemo">
+    <list default="true" id="b40c5a91-1f43-4b0c-85eb-2662025fcf24" name="Default Changelist" comment="7.10.2020-useMemo+useCallback">
+      <change afterPath="$PROJECT_DIR$/src/stories/UseState.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UseMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UseMemoUseCallback.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UseMemoUseCallback.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UseMemoUseCallback.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,11 @@
       <workItem from="1600504163246" duration="18727000" />
       <workItem from="1600574782897" duration="798000" />
       <workItem from="1600602105105" duration="200000" />
-      <workItem from="1602086671796" duration="5248000" />
+      <workItem from="1602086671796" duration="5467000" />
+      <workItem from="1602259476659" duration="1014000" />
+      <workItem from="1602269223245" duration="667000" />
+      <workItem from="1602306554880" duration="614000" />
+      <workItem from="1603955295000" duration="3458000" />
     </task>
     <task id="LOCAL-00001" summary="10.07.2020-storyBook">
       <created>1594368486495</created>
@@ -117,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600602281522</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="7.10.2020-useMemo+useCallback">
+      <created>1602092040311</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602092040311</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +151,8 @@
     <MESSAGE value="10.07.2020-storyBook" />
     <MESSAGE value="11.07.2020-storyBook+input" />
     <MESSAGE value="20.09.2020-React.memo+useMemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.09.2020-React.memo+useMemo" />
+    <MESSAGE value="7.10.2020-useMemo+useCallback" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.10.2020-useMemo+useCallback" />
   </component>
   <component name="WindowStateProjectService">
     <state x="585" y="115" key="FileChooserDialogImpl" timestamp="1594368813355">
@@ -150,10 +163,10 @@
       <screen x="0" y="0" width="1280" height="683" />
     </state>
     <state x="672" y="55" key="RollbackChangesDialog/0.0.1280.683@0.0.1280.683" timestamp="1596035840110" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1600602284626">
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1602092043181">
       <screen x="0" y="0" width="1280" height="683" />
     </state>
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.683@0.0.1280.683" timestamp="1600602284626" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.683@0.0.1280.683" timestamp="1602092043181" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -301,8 +314,27 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/stories/UseMemoUseCallback.stories.tsx</url>
           <line>90</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/stories/UseMemoUseCallback.stories.tsx</url>
+          <line>79</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/stories/UseMemoUseCallback.stories.tsx</url>
+          <line>80</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/stories/UseMemoUseCallback.stories.tsx</url>
+          <line>81</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/stories/UseMemoUseCallback.stories.tsx</url>
+          <line>82</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -103,4 +103,4 @@ const BooksSecret = (props: { addBook: () => void }) => {
 }
 const Book = React.memo(BooksSecret);
 //т.е. useMemo мы используем для каждого элемента, а если в элементе есть колбэк
-//то добавляем и useCallback
+//то ставим useCallback
