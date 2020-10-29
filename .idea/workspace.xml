@@ -10,11 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b40c5a91-1f43-4b0c-85eb-2662025fcf24" name="Default Changelist" comment="7.10.2020-useMemo+useCallback">
-      <change afterPath="$PROJECT_DIR$/src/stories/UseState.stories.tsx" afterDir="false" />
+    <list default="true" id="b40c5a91-1f43-4b0c-85eb-2662025fcf24" name="Default Changelist" comment="29.10.2020-useState">
+      <change afterPath="$PROJECT_DIR$/src/stories/UseEffect.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UseMemoUseCallback.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UseMemoUseCallback.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UnControlledAccordion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -51,19 +49,19 @@
     <property name="ts.external.directory.path" value="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\stories" />
       <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UnControlledAccordion" />
+      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\Select" />
+      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UnConrolledRating" />
+      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UncontrolledOnOff" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UnControlledAccordion\reducer.tsx" />
       <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\Rating\Rating.tsx" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UnControlledAccordion" />
-      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\Select" />
-      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\stories" />
-      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UnConrolledRating" />
-      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UncontrolledOnOff" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -99,7 +97,8 @@
       <workItem from="1602259476659" duration="1014000" />
       <workItem from="1602269223245" duration="667000" />
       <workItem from="1602306554880" duration="614000" />
-      <workItem from="1603955295000" duration="3458000" />
+      <workItem from="1603955295000" duration="3708000" />
+      <workItem from="1603981984723" duration="5160000" />
     </task>
     <task id="LOCAL-00001" summary="10.07.2020-storyBook">
       <created>1594368486495</created>
@@ -129,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602092040311</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="29.10.2020-useState">
+      <created>1603960575373</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603960575373</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,21 +158,18 @@
     <MESSAGE value="11.07.2020-storyBook+input" />
     <MESSAGE value="20.09.2020-React.memo+useMemo" />
     <MESSAGE value="7.10.2020-useMemo+useCallback" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.10.2020-useMemo+useCallback" />
+    <MESSAGE value="29.10.2020-useState" />
+    <option name="LAST_COMMIT_MESSAGE" value="29.10.2020-useState" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="115" key="FileChooserDialogImpl" timestamp="1594368813355">
-      <screen x="0" y="0" width="1280" height="683" />
-    </state>
-    <state x="585" y="115" key="FileChooserDialogImpl/0.0.1280.683@0.0.1280.683" timestamp="1594368813355" />
     <state x="672" y="55" key="RollbackChangesDialog" timestamp="1596035840110">
       <screen x="0" y="0" width="1280" height="683" />
     </state>
     <state x="672" y="55" key="RollbackChangesDialog/0.0.1280.683@0.0.1280.683" timestamp="1596035840110" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1602092043181">
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1603960578226">
       <screen x="0" y="0" width="1280" height="683" />
     </state>
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.683@0.0.1280.683" timestamp="1602092043181" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.683@0.0.1280.683" timestamp="1603960578226" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -335,6 +338,12 @@
           <url>file://$PROJECT_DIR$/src/stories/UseMemoUseCallback.stories.tsx</url>
           <line>82</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/stories/UseEffect.stories.tsx</url>
+          <line>23</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
