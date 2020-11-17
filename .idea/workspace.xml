@@ -10,9 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b40c5a91-1f43-4b0c-85eb-2662025fcf24" name="Default Changelist" comment="29.10.2020-useState">
-      <change afterPath="$PROJECT_DIR$/src/stories/UseEffect.stories.tsx" afterDir="false" />
+    <list default="true" id="b40c5a91-1f43-4b0c-85eb-2662025fcf24" name="Default Changelist" comment="29.10.2020-useEffect">
+      <change afterPath="$PROJECT_DIR$/src/components/Clock/Clock.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Clock/Clock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UseEffect.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UseEffect.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Clock" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -49,19 +51,19 @@
     <property name="ts.external.directory.path" value="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\stories" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UnControlledAccordion" />
-      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\Select" />
-      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UnConrolledRating" />
-      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UncontrolledOnOff" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UnControlledAccordion\reducer.tsx" />
       <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\Rating\Rating.tsx" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\Clock" />
+      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\stories" />
       <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UnControlledAccordion" />
+      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\Select" />
+      <recent name="D:\Programer\IT-Incubator\new-kabzda-kak-prosto\src\components\UnConrolledRating" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -98,7 +100,11 @@
       <workItem from="1602269223245" duration="667000" />
       <workItem from="1602306554880" duration="614000" />
       <workItem from="1603955295000" duration="3708000" />
-      <workItem from="1603981984723" duration="5160000" />
+      <workItem from="1603981984723" duration="5776000" />
+      <workItem from="1604053636867" duration="6375000" />
+      <workItem from="1604132595813" duration="1021000" />
+      <workItem from="1605550180737" duration="1573000" />
+      <workItem from="1605622305189" duration="2341000" />
     </task>
     <task id="LOCAL-00001" summary="10.07.2020-storyBook">
       <created>1594368486495</created>
@@ -135,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603960575373</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="29.10.2020-useEffect">
+      <created>1603993358991</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603993358991</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,17 +172,18 @@
     <MESSAGE value="20.09.2020-React.memo+useMemo" />
     <MESSAGE value="7.10.2020-useMemo+useCallback" />
     <MESSAGE value="29.10.2020-useState" />
-    <option name="LAST_COMMIT_MESSAGE" value="29.10.2020-useState" />
+    <MESSAGE value="29.10.2020-useEffect" />
+    <option name="LAST_COMMIT_MESSAGE" value="29.10.2020-useEffect" />
   </component>
   <component name="WindowStateProjectService">
     <state x="672" y="55" key="RollbackChangesDialog" timestamp="1596035840110">
       <screen x="0" y="0" width="1280" height="683" />
     </state>
     <state x="672" y="55" key="RollbackChangesDialog/0.0.1280.683@0.0.1280.683" timestamp="1596035840110" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1603960578226">
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1603993361764">
       <screen x="0" y="0" width="1280" height="683" />
     </state>
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.683@0.0.1280.683" timestamp="1603960578226" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.683@0.0.1280.683" timestamp="1603993361764" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -342,7 +356,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/stories/UseEffect.stories.tsx</url>
           <line>23</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>

@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+
 export default {
     title: 'useEffect demo',
 }
@@ -13,7 +14,6 @@ export const SimpleExample = () => {
         document.title = '+counter'
     })
 
-
     return (
         <div>
             Hellow,{counter}
@@ -22,3 +22,38 @@ export const SimpleExample = () => {
     )
 }
 
+//часы
+export const SetTimeoutExample = () => {
+    let [date, setDate] = useState(new Date())
+    useEffect(() => {
+        setInterval(() => tick(), 1000);
+    })
+
+    function tick() {
+        setDate(new Date());
+    }
+
+    return (
+        <div>
+            {date.toLocaleTimeString()}//выдаст 15:10:05
+            {/*{date.getSeconds()}*/}
+        </div>
+    )
+}
+// export const SetTimeoutExample = () => {
+//
+//     let [date, setDate] = useState(new Date())
+//     useEffect(() => {
+//         setInterval(() => tick(), 1000);
+//     })
+//
+//     function tick() {
+//         setDate(new Date());
+//     }
+//
+//     return (
+//         <div>
+//             {date.toLocaleTimeString()}
+//         </div>
+//     )
+// }
